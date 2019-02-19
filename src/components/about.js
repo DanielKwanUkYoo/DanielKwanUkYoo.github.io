@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import './styles/about.css'
 
 export default class About extends Component {
     render() {
         return(
-            <h1>about me</h1>
+            <div className="about-container">
+
+            </div>
         )
     }
 }
