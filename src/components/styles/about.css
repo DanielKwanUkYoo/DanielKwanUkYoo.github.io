@@ -8,11 +8,10 @@
 .about-container:after {
     content: ' ';
     display: block;
-    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 95%;
+    height: 90%;
     opacity: 0.6;
     background-image: url("../images/about_me.jpg");
     background-repeat: no-repeat;
