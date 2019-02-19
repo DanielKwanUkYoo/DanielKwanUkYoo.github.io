@@ -4,7 +4,7 @@
     height: 70px;
     background-color: #222;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     border-bottom: solid 1.3px #fff;
     transition: 0.5s
 }
@@ -28,7 +28,7 @@
 
 .menu-lists a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 
 }
 
