@@ -5,6 +5,8 @@
     background-color: #222;
     position: fixed;
     z-index: 1;
+    border-bottom: solid 1.3px #fff;
+    transition: 0.5s
 }
 
 .menu-lists {
@@ -20,7 +22,7 @@
 .menu-lists li {
     padding-right: 5em;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     
 }
 
@@ -30,7 +32,7 @@
 
 }
 
-.menu-lists a:after {
+.menu-lists a::after {
     bottom: 0;
     left: 0;
     right: 0;
@@ -39,18 +41,18 @@
     content: '.';
     color: transparent;
     background: #aaa;
-    height: 1.5px;
+    height: 1px;
     display: block;
     margin-top: 1em;
 }
 
 .menu-lists a:hover {
     transition: all .5s;
-    color: #17bed2;
-    
+    color: #17bed2 !important;
+
 }
 
 .menu-lists a:hover:after {
-    transition: 0.5s;
+    transition: 0.4s;
     width: 100%
 }

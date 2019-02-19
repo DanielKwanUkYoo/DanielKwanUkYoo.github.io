@@ -5,7 +5,7 @@
     height: 600px;
 }
 
-.about-container:after {
+.about-container::after {
     content: ' ';
     display: block;
     left: 0;
@@ -17,5 +17,4 @@
     background-repeat: no-repeat;
     -ms-background-size: cover;
     background-size: cover;
-
 }
