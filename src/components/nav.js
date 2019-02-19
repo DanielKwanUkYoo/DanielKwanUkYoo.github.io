@@ -7,7 +7,8 @@ export default class Nav extends Component {
         this.state = {
             initialScroll: 0,
             navColor: "",
-            fontColor: ""
+            fontColor: "",
+            opacity: ""
         }
     };
 
@@ -23,16 +24,16 @@ export default class Nav extends Component {
         const initialScroll = this.state.initialScroll;
         const currentScroll = window.scrollY;
         if (currentScroll > initialScroll) {
-            this.setState({ navColor: '#fff', fontColor: '#222' })
+            this.setState({ navColor: '#fff', fontColor: '#222', opacity: 0.8 })
         } else if (currentScroll < 1){
-            this.setState({ navColor: '#222', fontColor: '#fff'})
+            this.setState({ navColor: '#222', fontColor: '#fff', opacity: 1})
         }
     }
     
     render() {
 
         return(
-            <nav onScroll={this.handleScroll} className="nav-container" style={{backgroundColor: this.state.navColor}}>
+            <nav onScroll={this.handleScroll} className="nav-container" style={{backgroundColor: this.state.navColor, opacity: this.state.opacity}}>
                 <ul className="menu-lists">
                     <li><a style={{color: this.state.fontColor}} href="#">Home</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#">About me</a></li>
