@@ -1,0 +1,14 @@
+.intro-container {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px
+}
+
+.skills-container {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
