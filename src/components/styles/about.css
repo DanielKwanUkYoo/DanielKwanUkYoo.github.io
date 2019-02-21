@@ -2,7 +2,7 @@
     margin-top: 50px;
     display: flex;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .about-container::after {
@@ -22,11 +22,11 @@
 .about-name {
     position: absolute;
     z-index: 1;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sriracha', sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    /* font-weight: 600; */
     top: 20%;
-    left: 10%;
+    left: 5%;
     padding: 1em;
 }
 

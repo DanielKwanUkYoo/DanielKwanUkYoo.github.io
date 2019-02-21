@@ -1,14 +1,135 @@
 .intro-container {
-    margin-top: 8em;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 600px
+    justify-content: center;
+    /* background-color: #f2f2f0 */
+    border-bottom: 1px solid #f2f2f2;
+
+}
+
+/* .intro-container::before {
+    content : "";
+    position: absolute;
+    margin-top: 19em;
+    width: 50%;
+    border-top: 1px solid #f2f2f2;;
+} */
+
+
+
+.intro-title {
+    margin-right: 5em;
+    margin-top: 50px;
+    color: #4d4d4d;
+
+}
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    color: #666666;
+
+}
+.intro p {
+    margin-top: 0.5em;
 }
 
 .skills-container {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3em;
+    height: 100%;
+    background-color: #f2f2f2
+}
+
+.skills-title h1 {
+    color: #4d4d4d;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding-top: 50px;
+}
+
+.skills {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+    
+    
+}
+
+.skills span {
+    /* display: flex;
+    justify-content: center; */
+    /* border: 1px solid; */
+    /* padding: 5em;
+    width: 40%;
+    font-size: 13px;
+    transition: 0.5s; */
+}
+
+.front-end:hover {
+    padding-top: 1em;
+    /* animation-delay: 0.2; */
+
+}
+
+.back-end:hover{
+    padding-top: 1em;
+    /* animation-delay: 0.2s; */
+}
+
+.front-end {
+    background-color: #17bed2;
+    color: #fff;
+    padding: 5em;
+    width: 40%;
+    font-size: 13px;
+    transition: 0.2s;
+
+}
+
+.back-end {
+    background-color: #fff;
+    color: #666666;
+    padding: 5em;
+    width: 40%;
+    font-size: 13px;
+    transition: 0.2s;
+
+}
+
+.back-end h1 {
+    color: #4d4d4d;
+}
+
+.lists-of-skills {
+    margin-left: 3em;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    height: 100%;
+    background-color: #fff;
+}
+
+.projects-title h1 {
+    color: #4d4d4d;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding-top: 50px;
 }
