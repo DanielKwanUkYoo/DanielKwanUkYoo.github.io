@@ -27,7 +27,7 @@ export default class Skills extends Component {
                         <p className="lists-of-skills">HTML5, CSS3, CSS Framework, Flexbox, Javascript, JS Framework( React, jQuery )</p>
                         </span>
                         <span className="back-end"><h1>Back-End</h1><br/>
-                        <p className="lists-of-skills">Node.js, Ruby, Ruby on Rails, PostgreSQL, MongoDB, RSpec( testing )</p>
+                        <p className="lists-of-skills">Node.js, Ruby, Ruby on Rails(MVC), PostgreSQL, MongoDB, RSpec( testing )</p>
                         </span>
                     </div>
                 </div>
@@ -41,9 +41,11 @@ export default class Skills extends Component {
                         {/* <h1>Scheduling App</h1> */}
                         <img src={OnTime} style={{width: '500px', height: '300px', marginRight: '1em'}}/>
                         <img src={OnTimeView} style={{width: '300px', height: '300px'}} />
-                        <h1>Tiny App</h1>
-                        <h1>Chatty App</h1>
-
+                        
+                        <h1>
+                            <span className="tinyapp">Tiny App</span> 
+                            <span className="chattyapp"><div className="overlay"></div>Chatty App</span>
+                        </h1>
                     </div>
                     <div className="projects-bjuk" >
                         {/* <h1>Curate your own Textbook!</h1> */}
