@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
-import './styles/skills.css'
+import './styles/skills.css';
+import Bjuk from './images/bjuk.png';
+import OnTime from './images/on-time.png';
+import OnTimeView from './images/on-time-view.png'
+
 export default class Skills extends Component {
     render() {
         return(
@@ -15,7 +19,8 @@ export default class Skills extends Component {
                 </div>
                 <div className="skills-container">
                     <div className="skills-title">
-                        <h1>Skills</h1> 
+                        <h1>Skills</h1>
+                        <p>I am continuously practicing to solidify these skills<br/> and searching for opportunities to learn new tools.</p> 
                     </div>
                     <div className="skills">
                         <span className="front-end"><h1>Front-End</h1><br/>
@@ -26,9 +31,23 @@ export default class Skills extends Component {
                         </span>
                     </div>
                 </div>
+        
+                <div className="projects-title">
+                    <h1>Projects</h1>
+                </div>
+
                 <div className="projects-container">
-                    <div className="projects-title">
-                        <h1>Projects</h1>
+                    <div className="projects-on-time">
+                        {/* <h1>Scheduling App</h1> */}
+                        <img src={OnTime} style={{width: '500px', height: '300px', marginRight: '1em'}}/>
+                        <img src={OnTimeView} style={{width: '300px', height: '300px'}} />
+                        <h1>Tiny App</h1>
+                        <h1>Chatty App</h1>
+
+                    </div>
+                    <div className="projects-bjuk" >
+                        {/* <h1>Curate your own Textbook!</h1> */}
+                        <img src={Bjuk} style={{width: '300px', height: '400px'}}/>
                     </div>
                 </div>
             </div>
