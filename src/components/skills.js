@@ -8,7 +8,7 @@ export default class Skills extends Component {
     render() {
         return(
             <div>
-                <div className="intro-container">
+                <div className="intro-container"><a className="anchor" id="intro"></a>
                     <h1 className="intro-title">Intro</h1>
                     <p className="intro">
                     <p>Hello, I'm Daniel.</p><br/>
@@ -17,7 +17,7 @@ export default class Skills extends Component {
                     <p>Love to stay curious, accept new challenges, seek for opportunities to grow and learn new technologies everyday.</p>
                     </p>
                 </div>
-                <div className="skills-container">
+                <div className="skills-container"><a className="anchor" id="skills"></a>
                     <div className="skills-title">
                         <h1>Skills</h1>
                         <p>I am continuously practicing to solidify these skills<br/> and searching for opportunities to learn new tools.</p> 
@@ -32,24 +32,21 @@ export default class Skills extends Component {
                     </div>
                 </div>
         
-                <div className="projects-title">
+                <div className="projects-title"><a className="anchor" id="projects"></a>
                     <h1>Projects</h1>
                 </div>
 
                 <div className="projects-container">
                     <div className="projects-on-time">
-                        {/* <h1>Scheduling App</h1> */}
-                        <img src={OnTime} style={{width: '500px', height: '300px', marginRight: '1em'}}/>
-                        <img src={OnTimeView} style={{width: '300px', height: '300px'}} />
-                        
+                        <a href="#"><img src={OnTime} style={{width: '500px', height: '300px', marginRight: '1em'}}/></a>
+                        <a href="#"><img src={OnTimeView} style={{width: '300px', height: '300px'}} /></a>
                         <h1>
-                            <span className="tinyapp">Tiny App</span> 
-                            <span className="chattyapp"><div className="overlay"></div>Chatty App</span>
+                            <span className="tinyapp"><a href="#">Tiny App</a></span>
+                            <span className="chattyapp"><a href="#">Chatty App</a></span>
                         </h1>
                     </div>
                     <div className="projects-bjuk" >
-                        {/* <h1>Curate your own Textbook!</h1> */}
-                        <img src={Bjuk} style={{width: '300px', height: '400px'}}/>
+                        <a href="#"><img src={Bjuk} style={{width: '300px', height: '400px'}}/></a>
                     </div>
                 </div>
             </div>

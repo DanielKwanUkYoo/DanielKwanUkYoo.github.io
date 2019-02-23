@@ -36,9 +36,9 @@ export default class Nav extends Component {
             <nav onScroll={this.handleScroll} className="nav-container" style={{backgroundColor: this.state.navColor, opacity: this.state.opacity}}>
                 <ul className="menu-lists">
                     <li><a style={{color: this.state.fontColor}} href="#">Home</a></li>
-                    <li><a style={{color: this.state.fontColor}} href="#">About me</a></li>
-                    <li><a style={{color: this.state.fontColor}} href="#">Skills</a></li>
-                    <li><a style={{color: this.state.fontColor}} href="#">Projects</a></li>
+                    <li><a style={{color: this.state.fontColor}} href="#intro">About me</a></li>
+                    <li><a style={{color: this.state.fontColor}} href="#skills">Skills</a></li>
+                    <li><a style={{color: this.state.fontColor}} href="#projects">Projects</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#">Contact</a></li>
                 </ul>
             </nav>
