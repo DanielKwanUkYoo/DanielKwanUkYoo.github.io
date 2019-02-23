@@ -60,7 +60,6 @@ a.anchor {
     margin: 1em auto;
     font-size: 15px;
     margin-bottom: 3em;
-    
 }
 
 .skills {
@@ -70,25 +69,13 @@ a.anchor {
     padding-bottom: 50px;
     width: 50%;
     margin: 0 auto;
-    
-    
-}
-
-.skills span {
-    /* display: flex;
-    justify-content: center; */
-    /* border: 1px solid; */
-    /* padding: 5em;
-    width: 40%;
-    font-size: 13px;
-    transition: 0.5s; */
 }
 
 .front-end:hover {
     padding-top: 3em;
 }
 
-.back-end:hover{
+.back-end:hover {
     padding-top: 3em;
 }
 
@@ -99,7 +86,6 @@ a.anchor {
     width: 40%;
     font-size: 13px;
     transition: 0.2s;
-
 }
 
 .back-end {
@@ -109,7 +95,6 @@ a.anchor {
     width: 40%;
     font-size: 13px;
     transition: 0.2s;
-
 }
 
 .back-end h1 {
@@ -135,9 +120,16 @@ a.anchor {
     color: #4d4d4d;
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 2em;
     padding-top: 50px;
     font-size: 25px;
+}
+
+.projects-title p {
+    color: #999999;
+    width: 50%;
+    margin: 1em auto;
+    font-size: 15px;
+    margin-bottom: 3em;
 }
 
 .projects-container h1 {
@@ -176,7 +168,7 @@ img:hover {
     padding: 1em 3em;
 }
 
-.tinyapp {
+.jungleapp {
     background-color: #fff;
     border-radius: 5px;
     transition: 0.3s;
@@ -209,7 +201,7 @@ img:hover {
     color: #fff;
 }
 
-.tinyapp a {
+.jungleapp a {
     text-decoration: none;
     color: #4d4d4d;
 }
