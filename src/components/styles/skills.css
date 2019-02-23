@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* background-color: #f2f2f0 */
     border-bottom: 1px solid #f2f2f2;
     
 }
@@ -16,6 +15,7 @@ a.anchor {
     position: relative;
     top: -200px;
     visibility: hidden;
+    transition: 2s;
 }
 
 
@@ -62,6 +62,7 @@ a.anchor {
     margin-bottom: 3em;
     
 }
+
 .skills {
     display: flex;
     flex-direction: row;
@@ -163,6 +164,7 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-filter: brightness(100%);
     transition: 0.3s;
+    cursor: pointer;
 
 }
 
@@ -171,15 +173,18 @@ img:hover {
 }
 
 .projects-container span {
-    padding: 1.5em 7em;
+    padding: 1em 3em;
 }
 
 .tinyapp {
     background-color: #fff;
     border-radius: 5px;
     transition: 0.3s;
-
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
 }
+
 
 .chattyapp {
     color: #fff;
@@ -187,7 +192,9 @@ img:hover {
     border-radius: 5px;
     transition: 0.3s;
     -webkit-filter: brightness(100%);
-
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
 }
 
 
@@ -196,9 +203,6 @@ img:hover {
     
 }
 
-.tinyapp:hover {
-    /* need to do something here */
-}
 
 .chattyapp a {
     text-decoration: none;
