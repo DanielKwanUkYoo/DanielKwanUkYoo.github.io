@@ -2,10 +2,12 @@ import React, {Component} from 'react';
 import './styles/skills.css';
 import Bjuk from './images/bjuk.png';
 import OnTime from './images/on-time.png';
-import OnTimeView from './images/on-time-view.png'
+import OnTimeView from './images/on-time-view.png';
+
 
 export default class Skills extends Component {
     render() {
+        let Project = this.props.state.projectName;
         return(
             <div>
                 <div className="intro-container"><a className="anchor" id="intro"></a>
@@ -34,20 +36,25 @@ export default class Skills extends Component {
         
                 <div className="projects-title"><a className="anchor" id="projects"></a>
                     <h1>Projects</h1>
+                    <p>Click on image to see more in details</p>
                 </div>
 
                 <div className="projects-container">
                     <div className="projects-on-time">
-                        <a href="#"><img src={OnTime} style={{width: '500px', height: '300px', marginRight: '1em'}}/></a>
-                        <a href="#"><img src={OnTimeView} style={{width: '300px', height: '300px'}} /></a>
+                        <img project-name="on-time" onClick={this.props.onClickProject} src={OnTime} 
+                        style={{width: '500px', height: '300px', marginRight: '1em'}}/>
+                        <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
+                        style={{width: '300px', height: '300px'}} />
                         <h1>
-                            <span className="tinyapp"><a href="#">Tiny App</a></span>
-                            <span className="chattyapp"><a href="#">Chatty App</a></span>
+                            <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App</span>
+                            <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
                         </h1>
                     </div>
                     <div className="projects-bjuk" >
-                        <a href="#"><img src={Bjuk} style={{width: '300px', height: '400px'}}/></a>
+                        <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 
+                        style={{width: '300px', height: '400px'}}/>
                     </div>
+                {this.props.state.projectClicked ? <Project onClickCloseProject={this.props.onClickCloseProject} /> : null}
                 </div>
             </div>
         )
