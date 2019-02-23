@@ -45,10 +45,10 @@ export default class Skills extends Component {
                         style={{width: '500px', height: '300px', marginRight: '1em'}}/>
                         <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
                         style={{width: '300px', height: '300px'}} />
-                        <h1>
+                        <div className="projects-jungle-chatty">
                             <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
-                        </h1>
+                        </div>
                     </div>
                     <div className="projects-bjuk" >
                         <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 

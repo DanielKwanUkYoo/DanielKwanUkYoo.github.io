@@ -10,8 +10,8 @@ export default class Tiny extends Component {
                     <button onClick={this.props.onClickCloseProject}>close</button>
                 </div>
                 <div className="project-details-stack">
-                    <div className="project-details">A mini e-commerce application to practice fix bugs / add new features to given application. The purpose of this project was to simulate what I will be doing out in the world!</div>
-                    <div className="project-stack"><p>Stack</p>Ruby / Ruby on Rails(MVC) / postgreSQL</div>
+                    <div className="project-details">A mini e-commerce application to practice fix bugs / add new features / test to given application. The purpose of this project was to simulate what I will be doing out in the world!</div>
+                    <div className="project-stack"><p>Stack</p>Ruby / Ruby on Rails(MVC) / postgreSQL / RSpec(Testing)</div>
                 </div>
                 <div className="project-website">
                     <a href="https://github.com/DanielKwanUkYoo/jungle-rails">Github Repo</a>
