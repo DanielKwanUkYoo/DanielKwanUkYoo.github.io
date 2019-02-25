@@ -43,7 +43,9 @@ a.anchor {
     justify-content: space-around;
     margin-top: 3em;
     height: 100%;
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    border-bottom: solid 1px #e6e6e6;
+    border-top: solid 1px #e6e6e6;
 }
 
 .skills-title h1 {
