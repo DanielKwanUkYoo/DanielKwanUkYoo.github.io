@@ -1,5 +1,34 @@
 .contact-container {
     background-color: #f2f2f2;
-    display: flex;
-    padding: 1em;
+    padding: 2em;
+
 }
+
+.contact-title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.contact-title h2 {
+    text-align: end;
+}
+
+.contact-title p {
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.contact-details {
+    margin-top: 1em;
+}
+/* .contact-tag-email-media {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .contatct-container p {
+    width: 33%;
+} */
