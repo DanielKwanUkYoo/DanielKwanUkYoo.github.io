@@ -51,12 +51,9 @@ export default class Skills extends Component {
 
                 <div className="projects-container">
                     <div className="projects-on-time">
-                        <img className="on-time" project-name="on-time" onClick={this.props.onClickProject} src={OnTime} 
-                        style={{width: '500px', height: '300px', marginBottom: '50px'}}/>
-                        <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
-                        style={{width: '300px', height: '300px', marginBottom: '50px'}} />
-                        <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 
-                        style={{width: '600px', height: '400px', margin: '0 auto', display: 'flex'}}/>
+                        <img className="on-time" project-name="on-time" onClick={this.props.onClickProject} src={OnTime} />
+                        <img className="on-time-second" project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} />
+                        <img className="bjuk" project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} />
                         <div className="projects-jungle-chatty">
                             <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Practice on existing app</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
