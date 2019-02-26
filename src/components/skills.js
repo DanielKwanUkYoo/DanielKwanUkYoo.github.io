@@ -20,14 +20,12 @@ export default class Skills extends Component {
                     </p>
                 </div>
                 <div className="coding-container">
-                    {/* <div className="coding-title"> */}
-                        <h1>Coding<br/>Interests</h1>
-                        <p>
-                            Currently working on side projects to solidify the skills and tool I have learned at school.<br/><br/>
-                            I have huge interests in learing Object Oriented Programming such as JAVA C# and Frameworks like React and React Native and<br/><br/>
-                            continuously willing to learn and grow to become well-rounded full-stack developer.
-                        </p>
-                    {/* </div> */}
+                    <h1>Coding<br/>Interests</h1>
+                    <p>
+                        Currently working on side projects to solidify the skills and tool I have learned at school.<br/><br/>
+                        I have huge interests in learing Object Oriented Programming such as JAVA C# and Frameworks like React and React Native and<br/><br/>
+                        continuously willing to learn and develop to become well-rounded full-stack developer.
+                    </p>
                 </div>
 
                 <div className="skills-container"><a className="anchor" id="skills"></a>
@@ -58,13 +56,11 @@ export default class Skills extends Component {
                         <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
                         style={{width: '300px', height: '300px'}} />
                         <div className="projects-jungle-chatty">
-                            <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Simulation of hands on practice</span>
+                            <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Practice on existing app</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
                         </div>
-                    </div>
-                    <div className="projects-bjuk" >
                         <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 
-                        style={{width: '300px', height: '400px'}}/>
+                        style={{width: '600px', height: '400px', marginTop: '1.5em'}}/>
                     </div>
                 {this.props.state.projectClicked ? <Project onClickCloseProject={this.props.onClickCloseProject} /> : null}
                 </div>

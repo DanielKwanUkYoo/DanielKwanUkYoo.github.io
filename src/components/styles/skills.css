@@ -171,15 +171,7 @@ a.anchor {
     width: 100%;
     align-items: center;
     margin-top: 1.5em;
-}
-
-.projects-on-time {
-    margin-right: 2.5em;
     
-}
-
-.projects-bjuk {
-    margin-left: 2.5em;
 }
 
 img {
@@ -205,6 +197,7 @@ img:hover {
     width: 100%;
     cursor: pointer;
     -webkit-filter: brightness(100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .jungleapp:hover {
@@ -220,6 +213,7 @@ img:hover {
     text-align: center;
     width: 100%;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

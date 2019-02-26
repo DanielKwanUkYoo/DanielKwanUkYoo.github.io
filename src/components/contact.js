@@ -8,17 +8,17 @@ export default class Contact extends Component {
                 <div className="contact-title">
                     <h2>Contact
                         <div className="contact-contact-details">
-                            <p>Looking for opportunity to grow, learn and support!</p>
+                            <p>Looking for opportunity to grow, learn and support</p>
                             <p>Hire me!</p>
                         </div>
                     </h2>
                     <h5>Location
                         <div className="contact-details">
-                            <p>Vancouver, BC</p>
+                            <p className="contact-spacing">Vancouver, BC</p>
                         </div>
                     </h5>
                     <h5>Email
-                        <div className="contact-details">
+                        <div className="contact-spacing">
                             <a href="mailto:kwanukyoo@gmail.com">kwanukyoo@gmail.com</a>
                         </div>
                     </h5>

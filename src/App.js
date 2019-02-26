@@ -35,8 +35,7 @@ class App extends Component {
   onClickCloseProject = (event) => {
     const projectDetail = document.getElementsByClassName('project-details-container')[0];
     projectDetail.style.animation = "fadeOut 0.5s";
-    // projectDetail.style.display = "none";
-    setTimeout(() => this.setState({ projectClicked: false }), 250);
+    setTimeout(() => this.setState({ projectClicked: false }), 300);
   };
 
   render() {

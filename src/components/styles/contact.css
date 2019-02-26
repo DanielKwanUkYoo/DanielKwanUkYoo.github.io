@@ -39,15 +39,20 @@
     margin-top: 1em;
 }
 
-.contact-details a {
+.contact-spacing {
+    margin-top: 19px;
+}
+
+.contact-spacing a {
     text-decoration: none;
     color: #666666;
     font-weight: normal;
+    margin-top: 19px;
 }
 
-.contact-details a:hover {
+.contact-spacing a:hover {
     color: #17bed2;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .contact-details i {
