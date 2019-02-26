@@ -19,6 +19,17 @@ export default class Skills extends Component {
                     <p>Love to stay curious, accept new challenges, seek for opportunities to grow and learn new technologies everyday.</p>
                     </p>
                 </div>
+                <div className="coding-container">
+                    {/* <div className="coding-title"> */}
+                        <h1>Coding<br/>Interests</h1>
+                        <p>
+                            Currently working on side projects to solidify the skills and tool I have learned at school.<br/><br/>
+                            I have huge interests in learing Object Oriented Programming such as JAVA C# and Frameworks like React and React Native and<br/><br/>
+                            continuously willing to learn and grow to become well-rounded full-stack developer.
+                        </p>
+                    {/* </div> */}
+                </div>
+
                 <div className="skills-container"><a className="anchor" id="skills"></a>
                     <div className="skills-title">
                         <h1>Skills</h1>
