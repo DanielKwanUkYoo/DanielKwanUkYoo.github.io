@@ -20,6 +20,7 @@ class App extends Component {
 
   onClickProject = (event) => {
     const projectName = event.target.getAttribute('project-name');
+  
     if (projectName === "on-time") {
       this.setState({ projectClicked: true, projectName: OnTimeInfo});
     } else if (projectName === "bjuk") {
@@ -32,7 +33,10 @@ class App extends Component {
   };
 
   onClickCloseProject = (event) => {
-    this.setState({ projectClicked: false })
+    const projectDetail = document.getElementsByClassName('project-details-container')[0];
+    projectDetail.style.animation = "fadeOut 0.5s";
+    // projectDetail.style.display = "none";
+    setTimeout(() => this.setState({ projectClicked: false }), 250);
   };
 
   render() {

@@ -36,7 +36,8 @@ export default class Skills extends Component {
         
                 <div className="projects-title"><a className="anchor" id="projects"></a>
                     <h1>Projects</h1>
-                    <p>Click on image to see more in details</p>
+                    <p>Click on image to see more in details<br/>Currently working on more side-projects!</p>
+
                 </div>
 
                 <div className="projects-container">
@@ -46,7 +47,7 @@ export default class Skills extends Component {
                         <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
                         style={{width: '300px', height: '300px'}} />
                         <div className="projects-jungle-chatty">
-                            <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App</span>
+                            <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Simulation of hands on practice</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
                         </div>
                     </div>

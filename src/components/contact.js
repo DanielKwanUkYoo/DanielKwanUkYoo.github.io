@@ -27,12 +27,6 @@ export default class Contact extends Component {
                         <a href="https://github.com/DanielKwanUkYoo"><i className="fab fa-github"></i></a>
                     </div>
                 </div>
-
-                {/* <div className="contact-tag-email-media">
-                    <p>Looking for opportunity to grow, learn and support!</p>
-                    <p>kwanukyoo@gmail.com</p>
-                    <p>media</p>
-                </div> */}
             </div>
         )
     }
