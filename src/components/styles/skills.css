@@ -13,7 +13,7 @@
 a.anchor {
     display: block;
     position: relative;
-    top: -130px;
+    top: -100px;
     visibility: hidden;
     transition: 2s;
 }
@@ -231,4 +231,25 @@ img:hover {
 .jungleapp a {
     text-decoration: none;
     color: #4d4d4d;
+}
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 1200px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .front-end {
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .back-end {
+        width: 100%;
+        pointer-events: none;
+    }
+
 }
