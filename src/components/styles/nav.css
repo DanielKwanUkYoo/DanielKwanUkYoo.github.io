@@ -12,11 +12,12 @@
 .menu-lists {
     flex-direction: row;
     display: flex;
-    width: 90%;
+    width: 100%;
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
     margin-top: 1em;
+    margin-right: 5em;
 }
 
 .menu-lists li {
