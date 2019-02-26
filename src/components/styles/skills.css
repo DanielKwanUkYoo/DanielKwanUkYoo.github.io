@@ -170,7 +170,7 @@ a.anchor {
     flex-direction: row;
     width: 100%;
     align-items: center;
-    margin-top: 1.5em;
+    margin-top: 50px;
     
 }
 
@@ -233,7 +233,9 @@ img:hover {
     color: #4d4d4d;
 }
 
-
+.on-time {
+    margin-right: 1em;
+}
 /* responsive */
 
 
@@ -252,4 +254,37 @@ img:hover {
         pointer-events: none;
     }
 
+}
+
+@media only screen and (max-width: 900px) {
+    .projects-jungle-chatty {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .projects-container img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .on-time {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 825px) {
+    .intro-container {
+        flex-direction: column;
+    }
+    .coding-container {
+        flex-direction: column;
+
+    }
+    .coding-container p {
+        margin-top: 50px;
+    }
+    
 }

@@ -75,4 +75,7 @@
     .contact-details {
         margin-top: 0.5em;
     }
+    .contact-title h2 {
+        text-align: initial;
+    }
 }

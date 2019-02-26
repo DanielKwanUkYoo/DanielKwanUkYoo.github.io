@@ -20,7 +20,7 @@ export default class Skills extends Component {
                     </p>
                 </div>
                 <div className="coding-container">
-                    <h1>Coding<br/>Interests</h1>
+                    <h1>Coding</h1>
                     <p>
                         Currently working on side projects to solidify the skills and tool I have learned at school.<br/><br/>
                         I have huge interests in learing Object Oriented Programming such as JAVA C# and Frameworks like React and React Native and<br/><br/>
@@ -51,16 +51,17 @@ export default class Skills extends Component {
 
                 <div className="projects-container">
                     <div className="projects-on-time">
-                        <img project-name="on-time" onClick={this.props.onClickProject} src={OnTime} 
-                        style={{width: '500px', height: '300px', marginRight: '1em'}}/>
+                        <img className="on-time" project-name="on-time" onClick={this.props.onClickProject} src={OnTime} 
+                        style={{width: '500px', height: '300px', marginBottom: '50px'}}/>
                         <img project-name="on-time" onClick={this.props.onClickProject} src={OnTimeView} 
-                        style={{width: '300px', height: '300px'}} />
+                        style={{width: '300px', height: '300px', marginBottom: '50px'}} />
+                        <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 
+                        style={{width: '600px', height: '400px', margin: '0 auto', display: 'flex'}}/>
                         <div className="projects-jungle-chatty">
                             <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Practice on existing app</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
                         </div>
-                        <img project-name="bjuk" onClick={this.props.onClickProject} src={Bjuk} 
-                        style={{width: '600px', height: '400px', marginTop: '1.5em'}}/>
+                        
                     </div>
                 {this.props.state.projectClicked ? <Project onClickCloseProject={this.props.onClickCloseProject} /> : null}
                 </div>
