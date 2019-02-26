@@ -24,30 +24,30 @@
     color: #4d4d4d;
 }
 
-.contact-contact-details p {
-    margin-top: 0.5em;
-}
-
-.contact-title p {
+.contact-contact-details {
     font-size: 13px;
     font-weight: 400;
     color: #666666;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
 
 }
 
 .contact-details {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .contact-spacing {
-    margin-top: 19px;
+    margin-top: 20px;
+    font-weight: normal;
 }
 
 .contact-spacing a {
     text-decoration: none;
     color: #666666;
     font-weight: normal;
-    margin-top: 19px;
+    margin-top: 20px;
 }
 
 .contact-spacing a:hover {
@@ -63,3 +63,16 @@
 
 /* responsive */
 
+@media only screen and (max-width: 975px) {
+    .contact-title {
+        flex-direction: column;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .contact-spacing {
+        margin-top: 0.5em;
+    }
+    .contact-details {
+        margin-top: 0.5em;
+    }
+}
