@@ -41,7 +41,7 @@ a.anchor {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 3em;
+    margin: 7em 0 7em 0;
     height: 100%;
     background-color: #f2f2f2;
     border-bottom: solid 1px #e6e6e6;
@@ -50,16 +50,18 @@ a.anchor {
 
 .skills-title h1 {
     color: #4d4d4d;
-    width: 50%;
-    margin: 0 auto;
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    padding-left: 150px;
     padding-top: 50px;
     font-size: 25px;
 }
 
 .skills-title p {
     color: #999999;
-    width: 50%;
+    /* width: 50%; */
     margin: 1em auto;
+    padding-left: 150px;
     font-size: 15px;
     margin-bottom: 3em;
 }
@@ -120,9 +122,9 @@ a.anchor {
 
 .projects-title h1 {
     color: #4d4d4d;
-    width: 50%;
-    margin: 0 auto;
-    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
     font-size: 25px;
 }
 
@@ -132,6 +134,7 @@ a.anchor {
     margin: 1em auto;
     font-size: 15px;
     margin-bottom: 3em;
+    margin-left: 150px;
 }
 
 .projects-jungle-chatty {

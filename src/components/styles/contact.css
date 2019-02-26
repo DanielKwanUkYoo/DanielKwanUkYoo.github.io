@@ -1,6 +1,6 @@
 .contact-container {
     background-color: #f2f2f2;
-    padding: 2em;
+    padding: 3em 3em 7em 3em;
     border-top: 1px solid #e6e6e6;
     
 
@@ -8,7 +8,7 @@
 
 .contact-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-right: 5em;
 }
@@ -17,6 +17,11 @@
 .contact-title h2 {
     text-align: end;
     color: #4d4d4d;
+    font-size: 25px
+}
+
+.contact-contact-details p{
+    margin-top: 0.5em;
 }
 
 .contact-title p {
@@ -33,7 +38,7 @@
 .contact-details i {
     color: #4d4d4d;
     background-color: #f2f2f2;
-    font-size: 25px;
+    font-size: 35px;
 }
 /* .contact-tag-email-media {
     display: flex;

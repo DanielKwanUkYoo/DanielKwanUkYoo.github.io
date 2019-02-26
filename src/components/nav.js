@@ -39,7 +39,7 @@ export default class Nav extends Component {
                     <li><a style={{color: this.state.fontColor}} href="#intro">About me</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#skills">Skills</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#projects">Projects</a></li>
-                    <li><a style={{color: this.state.fontColor}} href="#">Contact</a></li>
+                    <li><a style={{color: this.state.fontColor}} href="#contact">Contact</a></li>
                 </ul>
             </nav>
         )
