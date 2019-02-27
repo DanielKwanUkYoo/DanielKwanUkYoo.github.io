@@ -45,7 +45,7 @@ export default class Skills extends Component {
         
                 <div className="projects-title"><a className="anchor" id="projects"></a>
                     <h1>Projects</h1>
-                    <p>Click on image to see more in details<br/>Currently working on more side-projects!</p>
+                    <p style={{color: "#17bed2"}}>Click on image to see more in details<br/><span style={{color: "#999999"}}>Currently working on more side-projects!</span></p>
 
                 </div>
 

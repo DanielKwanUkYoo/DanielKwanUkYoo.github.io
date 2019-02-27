@@ -92,6 +92,11 @@
 
 .project-website a:hover {
     color: #999999;
-    transition: 0.5s;
-    
+    transition: 0.5s;   
+}
+
+@media only screen and (max-width: 900px) {
+    .project-details-container {
+        width: 80%;
+    }
 }
