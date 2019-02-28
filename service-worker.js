@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/master/precache-manifest.fe267b70d6f440481317c4cfbbc94657.js"
+  "/DanielKwanUkYoo.github.io/precache-manifest.c99e717b237368346e18aa67dbe419a2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/master/index.html", {
+workbox.routing.registerNavigationRoute("/DanielKwanUkYoo.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
