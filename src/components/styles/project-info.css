@@ -20,8 +20,6 @@
     height: fit-content;
     padding: 2em 2em 2em 2em;
     animation: fade 0.5s;
-
-
 }
 
 @keyframes fade {

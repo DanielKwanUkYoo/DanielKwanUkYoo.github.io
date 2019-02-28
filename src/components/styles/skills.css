@@ -7,7 +7,6 @@
     flex-direction: row;
     justify-content: center;
     border-bottom: 1px solid #f2f2f2;
-    
 }
 
 a.anchor {
@@ -18,7 +17,6 @@ a.anchor {
     transition: 2s;
 }
 
-
 .intro-title {
     margin-right: 100px;
     margin-top: 50px;
@@ -26,11 +24,13 @@ a.anchor {
     width: 30%;
     font-size: 35px;
 }
+
 .intro {
     margin-top: 50px;
     margin-bottom: 3em;
     color: #666666;
 }
+
 .intro p {
     margin-top: 0.5em;
     width: 100%;
@@ -150,8 +150,6 @@ a.anchor {
 
 .projects-title p {
     color: #999999;
-    /* width: 50%; */
-    /* margin: 1em auto; */
     font-size: 15px;
     margin-bottom: 3em;
     margin-left: 150px;
@@ -217,7 +215,6 @@ img:hover {
     
 }
 
-
 .chattyapp a {
     text-decoration: none;
     color: #fff;
@@ -249,8 +246,8 @@ img:hover {
     margin: 0 auto;
     display: flex
 }
-/* responsive */
 
+/* responsive */
 
 @media only screen and (max-width: 1200px) {
     .skills {

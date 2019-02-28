@@ -27,7 +27,6 @@ export default class Skills extends Component {
                         continuously willing to learn and develop to become well-rounded full-stack developer.
                     </p>
                 </div>
-
                 <div className="skills-container"><a className="anchor" id="skills"></a>
                     <div className="skills-title">
                         <h1>Skills</h1>
@@ -42,13 +41,11 @@ export default class Skills extends Component {
                         </span>
                     </div>
                 </div>
-        
                 <div className="projects-title"><a className="anchor" id="projects"></a>
                     <h1>Projects</h1>
                     <p style={{color: "#17bed2"}}>Click on image to see more in details<br/><span style={{color: "#999999"}}>Currently working on more side-projects!</span></p>
 
                 </div>
-
                 <div className="projects-container">
                     <div className="projects-on-time">
                         <img className="on-time" project-name="on-time" onClick={this.props.onClickProject} src={OnTime} />
@@ -58,10 +55,9 @@ export default class Skills extends Component {
                             <span project-name="jungleapp" onClick={this.props.onClickProject} className="jungleapp">E-Commerce App<br/>Practice on existing app</span>
                             <span project-name="chattyapp" onClick={this.props.onClickProject} className="chattyapp">Chatty App<br/>Real-time chatting app</span>
                         </div>
-                        
                     </div>
-                {this.props.state.projectClicked ? <Project onClickCloseProject={this.props.onClickCloseProject} /> : null}
                 </div>
+                {this.props.state.projectClicked ? <Project onClickCloseProject={this.props.onClickCloseProject} /> : null}
             </div>
         )
     }

@@ -5,7 +5,6 @@ import './styles/about.css'
 export default class About extends Component {
     render() {
         return(    
-
             <div className="about-container">
                 <div className="about-name">DANIEL YOO<br/>
                     <div className="about-tagline">
@@ -15,8 +14,6 @@ export default class About extends Component {
                     </div>
                 </div>
             </div>
-
-            
         )
     }
 }
