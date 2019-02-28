@@ -8,7 +8,7 @@ export default class About extends Component {
             <div className="about-container">
                 <div className="about-name">DANIEL YOO<br/>
                     <div className="about-tagline">
-                        Junior Fullstack Developer<br/><br/><hr/><br/>
+                        Junior Fullstack Web Developer<br/><br/><hr/><br/>
                         <a href="https://www.linkedin.com/in/daniel-yoo-3269b6b0/"><i className="fab fa-linkedin"></i></a>
                         <a href="https://github.com/DanielKwanUkYoo"><i className="fab fa-github"></i></a>
                     </div>
