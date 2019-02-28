@@ -40,9 +40,20 @@ export default class Nav extends Component {
                     <li><a style={{color: this.state.fontColor}} href="#skills">Skills</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#projects">Projects</a></li>
                     <li><a style={{color: this.state.fontColor}} href="#contact">Contact</a></li>
-                    <li><i style={{backgroundColor: this.state.navColor, opacity: this.state.opacity, color: this.state.fontColor}}className="fas fa-bars"></i></li>
+                    <li>
+                        <i onClick={this.props.onClickNav} 
+                        style={{backgroundColor: this.state.navColor, opacity: this.state.opacity, color: this.state.fontColor}}className="fas fa-bars">
+                        </i>
+                    </li>
                 </ul>
-                
+                <ul className="resp-menu-lists" 
+                style={{transform: this.props.respNavClicked ? "scaleY(1)" : "scaleY(0)", backgroundColor: this.state.navColor, opacity: this.state.opacity}}>
+                    <li style={{marginTop: '1em'}}><a onClick={this.props.onClickNav} style={{color: this.state.fontColor}} href="#">Home</a></li>
+                    <li><a onClick={this.props.onClickNav} style={{color: this.state.fontColor}} href="#intro">About me</a></li>
+                    <li><a onClick={this.props.onClickNav} style={{color: this.state.fontColor}} href="#skills">Skills</a></li>
+                    <li><a onClick={this.props.onClickNav} style={{color: this.state.fontColor}} href="#projects">Projects</a></li>
+                    <li><a onClick={this.props.onClickNav} style={{color: this.state.fontColor}} href="#contact">Contact</a></li>
+                </ul>
             </nav>
         )
     }

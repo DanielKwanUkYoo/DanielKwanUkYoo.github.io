@@ -24,19 +24,16 @@ a.anchor {
     margin-top: 50px;
     color: #4d4d4d;
     width: 30%;
-
+    font-size: 35px;
 }
 .intro {
     margin-top: 50px;
-    margin-bottom: 6em;
-    /* width: 70%; */
+    margin-bottom: 3em;
     color: #666666;
-
 }
 .intro p {
     margin-top: 0.5em;
     width: 100%;
-
 }
 
 .coding-container {
@@ -44,14 +41,14 @@ a.anchor {
     justify-content: center;
     width: 60%;
     margin: 0 auto;
-    padding: 3em 0 3em 0;
     font-size: 15px;
 }
 
 .coding-container h1 {
     margin-right: 100px;
     width: 24.5%;
-    color: #4d4d4d
+    color: #4d4d4d;
+    font-size: 35px;
 }
 
 .coding-container p {
@@ -74,11 +71,9 @@ a.anchor {
 
 .skills-title h1 {
     color: #4d4d4d;
-    /* width: 50%; */
-    /* margin: 0 auto; */
     padding-left: 150px;
     padding-top: 50px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .skills-title p {
@@ -150,7 +145,7 @@ a.anchor {
     justify-content: flex-start;
     margin-left: 150px;
     margin-bottom: 1em;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .projects-title p {
@@ -190,7 +185,8 @@ img:hover {
 }
 
 .jungleapp {
-    background-color: #fff;
+    color: #fff;
+    background-color: #17bed2;
     transition: 0.3s;
     text-align: center;
     width: 100%;
@@ -206,7 +202,7 @@ img:hover {
 
 .chattyapp {
     color: #fff;
-    background-color: #17bed2;
+    background-color: #4d4d4d;
     transition: 0.3s;
     -webkit-filter: brightness(100%);
     text-align: center;

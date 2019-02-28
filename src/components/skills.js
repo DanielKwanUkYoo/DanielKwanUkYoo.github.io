@@ -13,7 +13,7 @@ export default class Skills extends Component {
                 <div className="intro-container"><a className="anchor" id="intro"></a>
                     <h1 className="intro-title">Intro</h1>
                     <p className="intro">
-                    <p>Hello, I'm Daniel.</p><br/>
+                    <p>Hello, I'm <span style={{color: '#17bed2'}}>Daniel.</span></p><br/>
                     <p>Web Developer and natural leader who gains satisfaction by problem solving and code that empowers users. </p><br/>
                     <p>I have an applied science background with teaching and management experience that gave me the foundation to excel in my passion of web development. </p><br/>
                     <p>Love to stay curious, accept new challenges, seek for opportunities to grow and learn new technologies everyday.</p>
@@ -23,7 +23,7 @@ export default class Skills extends Component {
                     <h1>Coding</h1>
                     <p>
                         Currently working on side projects to solidify the skills and tool I have learned at school.<br/><br/>
-                        I have huge interests in learing Object Oriented Programming such as JAVA C# and Frameworks like React and React Native and<br/><br/>
+                        I have huge interests in learing Object Oriented Programming such as Java C# and Frameworks like React and React Native and<br/><br/>
                         continuously willing to learn and develop to become well-rounded full-stack developer.
                     </p>
                 </div>

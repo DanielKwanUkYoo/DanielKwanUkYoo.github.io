@@ -14,7 +14,8 @@ class App extends Component {
     super(props);
     this.state = {
       projectClicked: false,
-      projectName: ""
+      projectName: "",
+      respNavClicked: false
     };
   }
 
@@ -38,10 +39,14 @@ class App extends Component {
     setTimeout(() => this.setState({ projectClicked: false }), 300);
   };
 
+  onClickNav = () => {
+    this.setState({ respNavClicked: !this.state.respNavClicked })
+  }
+
   render() {
     return (
       <div>
-        <Nav />,
+        <Nav onClickNav={this.onClickNav} respNavClicked={this.state.respNavClicked} />,
         <About />
         <Skills onClickProject={this.onClickProject} onClickCloseProject={this.onClickCloseProject} state={this.state}/>
         <Contact />
