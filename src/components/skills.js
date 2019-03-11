@@ -37,7 +37,7 @@ export default class Skills extends Component {
                         <p className="lists-of-skills">HTML5, CSS3, CSS Framework, Flexbox, Javascript, JS Framework( React, jQuery )</p>
                         </span>
                         <span className="back-end"><h1>Back-End</h1><br/>
-                        <p className="lists-of-skills">Node.js, Ruby, Ruby on Rails(MVC), PostgreSQL, MongoDB, RSpec( testing )</p>
+                        <p className="lists-of-skills">Node.js, Ruby, Php, Ruby on Rails(MVC), PostgreSQL, MongoDB, RSpec( testing )</p>
                         </span>
                     </div>
                 </div>

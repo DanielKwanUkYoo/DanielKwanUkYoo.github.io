@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danielkwanukyoo.github.io/portfolio/",
+  "homepage": "https://danielkwanukyoo.github.io/Portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
